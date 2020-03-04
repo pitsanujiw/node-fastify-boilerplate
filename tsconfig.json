@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build",
+    "target": "es2016",
+    "lib": ["es2016", "dom"],
+    "typeRoots": ["./node_modules/@types"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/**/*.ts"],
+  "types": ["reflect-metadata", "node"],
+  "allowSyntheticDefaultImports": true,
+  "lib": ["es2015", "dom"],
+  "exclude": ["node_modules"]
+}
